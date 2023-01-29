@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+}
+
+.chat{
+    height: calc(100% - 100px);
+
+    background-color: black;
+}
+
+.player{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: slategrey;
+}
+
+.start-control{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    color: white;
+    gap: 1em;
+    padding-left: 2em;
+
+}
+
+.middle-control{
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 3em;
+}
+
+span{
+    color: lime;
+}
+
+.end-button{
+    display: flex;
+    align-items: center;
+    color: red;
+    background-color: cadetblue;
+    width: 150px;
+    padding-left: 2em;
+}
+
+
+
+
