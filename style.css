@@ -6,18 +6,68 @@
 
 .container{
     height: 100vh;
-}
-
-.chat{
-    height: calc(100% - 100px);
-
     background-color: black;
 }
 
-.player{
+#chat{
+    height: calc(100% - 100px);
+
+}
+
+.impo{
+    color: white;
+    display: flex;
+    gap: 2em;
+    justify-content: end;
+    padding: 5px;
+}
+
+#first{
+    background-color: grey;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#second{
+    background-color:gray;
+    height: 30px;
+    padding-left: 20px;
+    padding-top: 8px;
+    border-radius: 5px;
+    width: 60px;
+}
+
+#partecipant{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+    height: 100%;
+     padding: 60px 20px;
+}
+
+.suggested{
+    background-color: green;
+    width: 25%;
+    height: calc(100% / 4);
+    border: 1px solid black;
+    position: relative;
+}
+
+strong{
+    background-color: #ffff;
+    opacity: 0.7;
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    padding: 5px;
+}
+
+.button{
     display: flex;
     justify-content: space-between;
-    height: 100px;
+    height: 80px;
     background-color: slategrey;
 }
 
@@ -50,7 +100,22 @@ span{
     background-color: cadetblue;
     width: 150px;
     padding-left: 2em;
+    cursor: pointer;
 }
+
+.click{
+    cursor: pointer;
+    width: 50px;
+    
+}
+
+
+
+
+
+
+
+
 
 
 
